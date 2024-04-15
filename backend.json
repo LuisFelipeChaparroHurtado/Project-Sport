@@ -11,24 +11,6 @@
       "nameProduct": "Servicio de Reparación",
       "description": "Reparación completa de bicicletas, incluyendo ajuste de frenos y cambios.",
       "typeProduct": "servicios"
-    },
-    {
-      "id": "3",
-      "nameProduct": "Casco de Bicicleta",
-      "description": "Casco de seguridad para ciclismo con ventilación.",
-      "typeProduct": "accesorios"
-    },
-    {
-      "id": "4",
-      "nameProduct": "Kit de Mantenimiento para Bicicleta",
-      "description": "Kit completo con herramientas para el mantenimiento de bicicletas.",
-      "typeProduct": "mantenimiento"
-    },
-    {
-      "id": "5",
-      "nameProduct": "Jersey de Ciclismo",
-      "description": "Jersey transpirable y ligero para ciclismo en climas cálidos.",
-      "typeProduct": "ropa deportiva"
     }
   ],
   "register": [
@@ -55,6 +37,38 @@
       "password": "12345",
       "confirmPassword": "12345",
       "role": "admin"
+    },
+    {
+      "id": "ca94",
+      "name": "Luis Felipe Chaparro Hurtado",
+      "email": "luis.chaparro@genback.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "role": "admin"
+    },
+    {
+      "id": "9c84",
+      "name": "Luis Chaparro",
+      "email": "luis.chaparro@genback.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "role": "admin"
+    },
+    {
+      "id": "3dde",
+      "name": "Luis Chaparro",
+      "email": "felipe-1716@hotmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "role": "viewer"
+    },
+    {
+      "id": "52f5",
+      "name": "Luis",
+      "email": "felipe-1716@hotmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "role": "viewer"
     }
   ],
   "login": [
@@ -67,6 +81,31 @@
       "id": "8288",
       "email": "felipe-1716@hotmail.com",
       "password": "12345"
+    },
+    {
+      "id": "c8d2",
+      "email": "felipe-1716@hotmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "297b",
+      "email": "luis.chaparro@genback.com",
+      "password": "12345"
+    },
+    {
+      "id": "0d3a",
+      "email": "luis.chaparro@genback.com",
+      "password": "123456"
+    },
+    {
+      "id": "abf7",
+      "email": "felipe-1716@hotmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1d6a",
+      "email": "felipe-1716@hotmail.com",
+      "password": "1234"
     }
   ]
 }
