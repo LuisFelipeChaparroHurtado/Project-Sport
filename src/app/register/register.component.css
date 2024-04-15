@@ -167,3 +167,21 @@ body {
 .social-login__icon:hover {
 	transform: scale(1.5);	
 }
+/* Estilos personalizados para el elemento <select> */
+.custom-select {
+    width: 100%; /* Para que el select se ajuste al ancho de su contenedor */
+    padding: 10px; /* Espacio interno del select */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde alrededor del select */
+    background-color: #f5f5f5; /* Color de fondo del select */
+    color: #333; /* Color de texto */
+    font-size: 1rem; /* Tamaño del texto */
+    outline: none; /* Quitar el contorno de enfoque predeterminado */
+    margin-left: 8px; /* Espacio entre el icono y el select */
+}
+
+/* Estilos para cuando el select está enfocado */
+.custom-select:focus {
+    border-color: #37517e; /* Cambia el color del borde al enfocarse */
+    box-shadow: 0 0 5px rgba(55, 81, 126, 0.5); /* Añade un efecto de sombra */
+}

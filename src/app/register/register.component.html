@@ -46,13 +46,11 @@
             />
           </div>
           <div class="login__field">
-            <i class="login__icon fa-solid fa-user"></i>
-            <label>Rol:</label>
-            <select [(ngModel)]="registerData.role" name="role" required>
-              <option value="viewer">Visualizador</option>
-              <option value="admin">Administrador</option>
+            <select [(ngModel)]="registerData.role" name="role" required class="custom-select">
+                <option value="viewer">Visualizador</option>
+                <option value="admin">Administrador</option>
             </select>
-          </div>
+        </div>
           <button class="button login__submit" type="submit">
             <span class="button__text">Registrarse</span>
             <i class="button__icon fas fa-chevron-right"></i>
